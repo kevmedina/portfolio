@@ -9,17 +9,15 @@ const Navbar = () => {
         <h1>Kevin Medina</h1>
       </div>
       <div>
-        <ul>
-          <Link className="link" to="/">
-            <li>Home</li>
-          </Link>
-          <Link className="link" to="/">
-            <li>About</li>
-          </Link>
-          <Link className="link" to="/">
-            <li>Projects</li>
-          </Link>
-        </ul>
+        <Link className="link" to="/">
+          Home
+        </Link>
+        <Link className="link" to="/about">
+          About
+        </Link>
+        <Link className="link" to="/projects">
+          Projects
+        </Link>
       </div>
     </nav>
   );
