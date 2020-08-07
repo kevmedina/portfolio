@@ -8,24 +8,26 @@ const About = () => {
         <div>
           <img src="../../images/profile_pic.jpeg" alt="profile-pic" />
         </div>
-        <div>
-          <h1>Hi, Nice to meet you!</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
-            ut doloribus quas nobis error ullam inventore, repellendus maiores,
-            voluptatum culpa omnis repudiandae dicta vel reprehenderit odit
-            corrupti voluptate quod quo!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
-            repudiandae in harum, vel reiciendis iusto excepturi accusantium
-            optio, quo quos, corporis ea cupiditate. A temporibus eos culpa ex
-            fuga maiores tempora nam labore nisi quas? Cupiditate veniam dolorum
-            temporibus nulla aut totam adipisci praesentium pariatur voluptate
-            optio, blanditiis odit quae beatae laborum fugit delectus distinctio
-            eaque eum recusandae, nesciunt officiis necessitatibus debitis. Ad
-            cupiditate, aliquid quasi quam commodi, sequi!
-          </p>
+        <div className="about-info">
+          <div>
+            <h1>Hi, Nice to meet you!</h1>
+            <p>
+              I have over 7 years of experience in the homeowners insurance
+              industry working as an underwriter. However, my passion for
+              technology led me to pursue a career in web development. I’m a
+              recent graduate from Ironhack’s Web Development Bootcamp which has
+              now expanded my skills of creating responsive and dynamic web
+              applications.
+            </p>
+          </div>
+          <div>
+            <h3>Technologies</h3>
+            <p>
+              JavaScript, React.js, Node.js, Express.js, Passport.js, MongoDB,
+              Mongoose, jQuery, AJAX, HTML, CSS, SASS, Responsive Design,
+              Bootstrap, Redux, GraphQL, Git, GitHub, Heroku, Netlify
+            </p>
+          </div>
         </div>
       </div>
     </div>
