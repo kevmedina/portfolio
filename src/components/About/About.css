@@ -1,0 +1,29 @@
+.about-container {
+  width: 100vw;
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+.inner-about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+.inner-about-container > div:first-child {
+  width: 40%;
+}
+
+.inner-about-container > div:nth-child(2) {
+  width: 60%;
+}
+
+img {
+  width: 25vw;
+  border-radius: 20px;
+  box-shadow: 2px 8px 8px rgba(126, 121, 121, 0.671);
+}
