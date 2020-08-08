@@ -21,7 +21,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <h3>Technologies</h3>
+            <h2>Technologies</h2>
             <p>
               JavaScript, React.js, Node.js, Express.js, Passport.js, MongoDB,
               Mongoose, jQuery, AJAX, HTML, CSS, SASS, Responsive Design,
