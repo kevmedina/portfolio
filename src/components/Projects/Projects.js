@@ -8,16 +8,24 @@ const Projects = () => {
 
       <section className="projects">
         <div className="project">
-          <img src="../../images/brickbreaker.png" alt="brick breaker" />
+          <a href="https://kevmedina.github.io/ironhack-project-1/">
+            <img src="../../images/brickbreaker.png" alt="brick breaker" />
+          </a>
         </div>
         <div className="project">
-          <img src="../../images/ironbook.png" alt="Ironbook" />
+          <a href="https://ironbook.herokuapp.com/">
+            <img src="../../images/ironbook.png" alt="Ironbook" />
+          </a>
         </div>
         <div className="project">
-          <img src="../../images/dishitout.png" alt="Dish-It-Out" />
+          <a href="https://dish-it-out.netlify.app">
+            <img src="../../images/dishitout.png" alt="Dish-It-Out" />
+          </a>
         </div>
         <div className="project">
-          <img src="../../images/dishitout.png" alt="Dish-It-Out" />
+          <a href="https://dish-it-out.netlify.app">
+            <img src="../../images/dishitout.png" alt="Dish-It-Out" />
+          </a>
         </div>
       </section>
     </div>
