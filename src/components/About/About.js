@@ -10,23 +10,38 @@ const About = () => {
         </div>
         <div className="about-info">
           <div>
-            <h1>Hi, Nice to meet you!</h1>
+            <h3>
+              Hi there! I am <strong>Kevin Medina</strong>
+            </h3>
             <p>
-              I have over 7 years of experience in the homeowners insurance
-              industry working as an underwriter. However, my passion for
-              technology led me to pursue a career in web development. I’m a
-              recent graduate from Ironhack’s Web Development Bootcamp which has
-              now expanded my skills of creating responsive and dynamic web
+              I am located in the South Florida area and passionate about
+              learning anything related to web development. I'm a Full Stack Web
+              Developer that specializes in using the MERN stack. I love to make
+              people's idea become reality with building dynamic web
               applications.
             </p>
           </div>
           <div>
-            <h2>Technologies</h2>
+            <h3>Skills</h3>
             <p>
               JavaScript, React.js, Node.js, Express.js, Passport.js, MongoDB,
               Mongoose, jQuery, AJAX, HTML, CSS, SASS, Responsive Design,
               Bootstrap, Redux, GraphQL, Git, GitHub, Heroku, Netlify
             </p>
+          </div>
+          <div className="buttons-container">
+            <a href="https://www.linkedin.com/in/kevmedina/">
+              <button>Let's Work</button>
+            </a>
+            <a href="https://docs.google.com/document/d/1tIu84tmJvB5OH_kmre4GJDvtVQcIqFZvMaELL1ZyWPI/edit">
+              <button>My Resume</button>
+            </a>
+            <a href="https://github.com/kevmedina">
+              <button>GitHub</button>
+            </a>
+            <a href="https://www.linkedin.com/in/kevmedina/">
+              <button>LinkedIn</button>
+            </a>
           </div>
         </div>
       </div>
