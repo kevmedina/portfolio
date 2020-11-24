@@ -17,8 +17,8 @@ const About = () => {
               I am located in the South Florida area and passionate about
               learning anything related to web development. I'm a Full Stack Web
               Developer that specializes in using the MERN stack. I love to make
-              people's idea become reality with building dynamic web
-              applications.
+              people's idea become reality with building responsive and dynamic
+              web applications.
             </p>
           </div>
           <div>
@@ -30,16 +30,32 @@ const About = () => {
             </p>
           </div>
           <div className="buttons-container">
-            <a href="https://www.linkedin.com/in/kevmedina/">
+            <a
+              href="https://www.linkedin.com/in/kevmedina/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>Let's Work</button>
             </a>
-            <a href="https://docs.google.com/document/d/1tIu84tmJvB5OH_kmre4GJDvtVQcIqFZvMaELL1ZyWPI/edit">
+            <a
+              href="https://docs.google.com/document/d/1tIu84tmJvB5OH_kmre4GJDvtVQcIqFZvMaELL1ZyWPI/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>My Resume</button>
             </a>
-            <a href="https://github.com/kevmedina">
+            <a
+              href="https://github.com/kevmedina"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>GitHub</button>
             </a>
-            <a href="https://www.linkedin.com/in/kevmedina/">
+            <a
+              href="https://www.linkedin.com/in/kevmedina/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>LinkedIn</button>
             </a>
           </div>

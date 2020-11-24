@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const toggleBurger = () => {};
+
   return (
     <nav>
       <div>
         <h1>Kevin Medina</h1>
       </div>
-      <div>
+      <div className="nav-links">
         <Link className="link" to="/">
           Home
         </Link>
@@ -21,6 +23,11 @@ const Navbar = () => {
         <Link className="link" to="/contact">
           Contact
         </Link>
+      </div>
+      <div className="burger-menu" onClick={toggleBurger}>
+        <div className=""></div>
+        <div className=""></div>
+        <div className=""></div>
       </div>
     </nav>
   );
