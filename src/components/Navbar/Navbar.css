@@ -12,20 +12,23 @@ nav {
 
 nav h1 {
   margin: 0;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .nav-links {
   width: 400px;
-  display: flex;
-  justify-content: space-evenly;
   background-color: var(--light-blue);
 }
 
-ul {
+.nav-links ul {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
   list-style: none;
+}
+
+.nav-links li {
+  height: 10px;
 }
 
 .link {
@@ -33,6 +36,7 @@ ul {
   text-decoration: none;
   margin: 0 10px;
   font-weight: 600;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -61,24 +65,34 @@ ul {
     height: calc(100vh - 60px);
     top: 60px;
     right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+  }
+
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav-links .link:hover {
+    text-decoration: none;
+    color: black;
   }
 
   .nav-active {
     transform: translateX(0%);
   }
 
-  .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+  .toggle1 {
+    transform: rotate(-45deg) translate(-4px, 6px);
   }
-  .toggle .line2 {
+  .toggle2 {
     opacity: 0;
   }
-  .toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+  .toggle3 {
+    transform: rotate(45deg) translate(-4px, -6px);
   }
 }

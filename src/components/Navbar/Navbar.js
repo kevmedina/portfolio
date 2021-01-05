@@ -5,9 +5,16 @@ import "./Navbar.css";
 const Navbar = () => {
   const toggleMenu = () => {
     const links = document.querySelector(".nav-links");
-    const ham = document.querySelector(".burger-menu");
     links.classList.toggle("nav-active");
-    ham.classList.toggle("toggle");
+
+    const line1 = document.querySelector(".link1");
+    line1.classList.toggle("toggle1");
+
+    const line2 = document.querySelector(".link2");
+    line2.classList.toggle("toggle2");
+
+    const line3 = document.querySelector(".link3");
+    line3.classList.toggle("toggle3");
   };
 
   return (
@@ -17,18 +24,28 @@ const Navbar = () => {
       </div>
 
       <div className="nav-links">
-        <Link className="link" to="/">
-          Home
-        </Link>
-        <Link className="link" to="/about">
-          About
-        </Link>
-        <Link className="link" to="/projects">
-          Projects
-        </Link>
-        <Link className="link" to="/contact">
-          Contact
-        </Link>
+        <ul>
+          <li>
+            <Link className="link" to="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link className="link" to="/about">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link className="link" to="/projects">
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link className="link" to="/contact">
+              Contact
+            </Link>
+          </li>
+        </ul>
       </div>
 
       <div className="burger-menu" onClick={() => toggleMenu()}>
