@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -10,10 +11,12 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/contacts" component={Contact} />
+      </Switch>
     </div>
   );
 };

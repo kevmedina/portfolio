@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
@@ -7,9 +8,9 @@ const Home = () => {
       <header>
         <h1>Hi, I am Kevin Medina</h1>
         <h3>Full Stack Web Developer</h3>
-        <a href="#projects" className="home-link">
+        <Link to="/projects" className="home-link">
           View Projects
-        </a>
+        </Link>
       </header>
     </div>
   );
