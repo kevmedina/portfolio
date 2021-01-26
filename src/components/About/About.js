@@ -5,9 +5,6 @@ const About = () => {
   return (
     <div className="about-container">
       <div className="inner-about-container">
-        <div>
-          <img src="../../images/profile_pic.jpeg" alt="profile-pic" />
-        </div>
         <div className="about-info">
           <div>
             <h3>

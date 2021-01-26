@@ -12,7 +12,7 @@
 
 header {
   text-align: center;
-  color: var(--light-blue);
+  color: var(--blue);
   width: 50%;
   line-height: 1.5;
 }
@@ -20,7 +20,7 @@ header {
 header h1 {
   font-size: 4rem;
   margin: 40px 0;
-  color: var(--light-blue);
+  color: var(--blue);
 }
 
 header h3 {
@@ -29,7 +29,7 @@ header h3 {
 }
 
 .home-link {
-  background-color: var(--light-blue);
+  background-color: var(--blue);
   padding: 10px 20px;
   color: #ffffff;
   text-decoration: none;
@@ -39,6 +39,7 @@ header h3 {
 }
 
 .home-link:hover {
-  background-color: lightgrey;
-  color: var(--light-blue);
+  background-color: #ffffff;
+  color: var(--blue);
+  text-decoration: none;
 }

@@ -9,13 +9,13 @@ import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app-container">
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
-        <Route exact path="/contacts" component={Contact} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
     </div>
   );

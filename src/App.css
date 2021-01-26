@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.app-container {
+  background-color: var(--grey);
+}
+
 :root {
-  --light-blue: #1c5eec;
+  --blue: #4484ce;
+  --grey: #d9d9d9;
+  --yellow: #f9cf00;
+  --orange: #f19f4d;
 }

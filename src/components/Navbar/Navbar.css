@@ -2,12 +2,13 @@ nav {
   width: 100vw;
   height: 60px;
   position: relative;
-  background-color: var(--light-blue);
+  background-color: var(--blue);
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
   padding: 0 10px;
+  border-bottom: 2px solid var(--orange);
 }
 
 nav h1 {
@@ -17,7 +18,7 @@ nav h1 {
 
 .nav-links {
   width: 400px;
-  background-color: var(--light-blue);
+  background-color: var(--blue);
 }
 
 .nav-links ul {
@@ -29,6 +30,11 @@ nav h1 {
 
 .nav-links li {
   height: 10px;
+}
+
+.nav-links .link:hover {
+  text-decoration: none;
+  color: var(--orange);
 }
 
 .link {
@@ -75,11 +81,6 @@ nav h1 {
     justify-content: space-around;
     align-items: center;
     height: 100%;
-  }
-
-  .nav-links .link:hover {
-    text-decoration: none;
-    color: black;
   }
 
   .nav-active {
