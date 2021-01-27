@@ -4,26 +4,27 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <section>
+      <div className="contact-inner-container">
         {/* Contact Form */}
-        <div>
+        <section className="contact-form-container">
           <h3>Contact Me!</h3>
+          <p>For all inquires, please email me using the form below.</p>
 
           <form>
             <div>
-              <label htmlFor="name"></label>
-              <input name="name" type="text" placeholder="Name" />
+              <label htmlFor="name">Name</label>
+              <input name="name" type="text" />
             </div>
             <div>
-              <label htmlFor="email"></label>
-              <input name="email" type="text" placeholder="Email address" />
+              <label htmlFor="email">Email</label>
+              <input name="email" type="text" />
             </div>
             <div>
-              <label htmlFor="subject"></label>
-              <input name="subject" type="text" placeholder="Subject" />
+              <label htmlFor="subject">Subject</label>
+              <input name="subject" type="text" />
             </div>
             <div>
-              <label htmlFor="email"></label>
+              <label htmlFor="message">Message</label>
               <textarea
                 placeholder="Please share your ideas here..."
                 rows="6"
@@ -32,30 +33,49 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
+
             <button>SEND MESSAGE</button>
           </form>
-        </div>
+        </section>
 
         {/* contact info */}
-        <div className="contact-info">
+        <section className="contact-info-container">
           <div>
-            <p>EMAIL: kmedinakm@hotmail.com</p>
-            <p>PHONE: (954) 258-0134</p>
-          </div>
+            <div>
+              <h5>Email</h5>
+              <p>
+                <i class="fas fa-envelope"> kmedinakm@hotmail.com</i>
+              </p>
+            </div>
 
-          <div>
-            <a href="www.google.com">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="www.github.com">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="www.codepen.com">
-              <i class="fab fa-codepen"></i>
-            </a>
+            <hr />
+
+            <div>
+              <h5>Phone</h5>
+              <p>
+                <i class="fas fa-phone"> (954) 258-0134</i>
+              </p>
+            </div>
+
+            <hr />
+
+            <div>
+              <h5>Social Media</h5>
+              <a href="www.google.com">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="www.github.com">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="www.codepen.com">
+                <i class="fab fa-codepen"></i>
+              </a>
+            </div>
+
+            <hr />
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 };
