@@ -21,7 +21,11 @@ const Projects = () => {
               once all the bricks have been destroyed.
             </p>
             <p>Technologies: JavaScript, HTML, CSS, Canvas</p>
-            <a href="https://kevmedina.github.io/ironhack-project-1/">
+            <a
+              href="https://kevmedina.github.io/ironhack-project-1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>VIEW WEBSITE</button>
             </a>
           </div>
@@ -41,7 +45,11 @@ const Projects = () => {
               Technologies: HTML, CSS, JavaScript, Node.js, Express.js,
               Passport.js, MongoDB, Mongoose, Socket.IO
             </p>
-            <a href="https://ironbook.herokuapp.com/">
+            <a
+              href="https://ironbook.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>VIEW WEBSITE</button>
             </a>
           </div>
@@ -62,7 +70,11 @@ const Projects = () => {
               Technologies: HTML, CSS, JavaScript, React.js, Node.js,
               Express.js, Passport.js, MongoDB, Mongoose
             </p>
-            <a href="https://dish-it-out.netlify.app">
+            <a
+              href="https://dish-it-out.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>VIEW WEBSITE</button>
             </a>
           </div>
