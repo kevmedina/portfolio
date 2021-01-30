@@ -60,12 +60,17 @@ nav ul {
     display: flex;
   }
 
+  .burger-menu:hover > div {
+    background-color: var(--orange);
+  }
+
   nav ul {
     flex-flow: column nowrap;
+    justify-content: space-around;
     position: fixed;
     top: 58px;
     right: 0;
-    height: 100vh;
+    height: calc(100vh - 60px);
     width: 300px;
     background-color: var(--blue);
   }
@@ -78,7 +83,6 @@ nav ul {
     transform: translateX(100%);
   }
 
-  /* 
   .toggle1 {
     transform: rotate(-45deg) translate(-4px, 6px);
   }
@@ -87,5 +91,5 @@ nav ul {
   }
   .toggle3 {
     transform: rotate(45deg) translate(-4px, -6px);
-  } */
+  }
 }

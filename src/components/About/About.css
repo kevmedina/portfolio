@@ -58,7 +58,8 @@ img {
 
 .buttons-container > a > button:hover {
   background-color: var(--blue);
-  color: #ffffff;
+  color: var(--orange);
+  border: 1px solid var(--orange);
 }
 
 /* Media Queries for mobile */

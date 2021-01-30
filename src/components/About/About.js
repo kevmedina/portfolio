@@ -5,6 +5,12 @@ const About = () => {
   return (
     <div className="about-container">
       <div className="inner-about-container">
+        {/* Profile Pictur */}
+        <div className="profile-picture">
+          <img src="images/profile_pic.jpeg" alt="Kevin Medina" />
+        </div>
+
+        {/* Bio Section */}
         <div className="about-info">
           <div>
             <h3>
@@ -17,15 +23,14 @@ const About = () => {
               people's idea become reality with building responsive and dynamic
               web applications.
             </p>
-          </div>
-          <div>
             <h3>Skills</h3>
             <p>
               JavaScript, React.js, Node.js, Express.js, Passport.js, MongoDB,
               Mongoose, jQuery, AJAX, HTML, CSS, SASS, Responsive Design,
-              Bootstrap, Redux, GraphQL, Git, GitHub, Heroku, Netlify
+              Bootstrap, Redux, Git, GitHub, Heroku, Netlify
             </p>
           </div>
+
           <div className="buttons-container">
             <a
               href="https://www.linkedin.com/in/kevmedina/"

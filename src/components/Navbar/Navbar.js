@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -7,14 +7,18 @@ const Navbar = () => {
 
   const toggleMenu = (open) => {
     const navMenu = document.querySelector("nav ul");
-
     setOpen(!open);
+
     if (open) {
       navMenu.classList.toggle("nav-open");
     } else {
       navMenu.classList.toggle("nav-close");
     }
   };
+
+  useEffect(() => {
+    setOpen();
+  }, [open]);
 
   return (
     <nav>
