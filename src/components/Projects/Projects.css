@@ -42,6 +42,7 @@
 @media screen and (max-width: 768px) {
   .project {
     flex-direction: column;
+    padding: 20px;
   }
   .project-info {
     width: 100%;

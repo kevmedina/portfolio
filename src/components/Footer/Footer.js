@@ -4,7 +4,9 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <div>copyright Kevin Medina</div>
+      <div>
+        copyright <span>&copy;</span> Kevin Medina
+      </div>
     </footer>
   );
 };
