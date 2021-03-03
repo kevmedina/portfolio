@@ -46,7 +46,7 @@ const Projects = () => {
               Passport.js, MongoDB, Mongoose, Socket.IO
             </p>
             <a
-              href="https://ironbook.herokuapp.com/"
+              href="https://ironbook-app.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >

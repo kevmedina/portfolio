@@ -53,7 +53,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div>
+        <div className="social-links">
           <h5>Social Media</h5>
           <a href="www.google.com">
             <i class="fab fa-linkedin"></i>
