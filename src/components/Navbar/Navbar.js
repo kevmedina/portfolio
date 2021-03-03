@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -6,19 +6,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const toggleMenu = (open) => {
-    const navMenu = document.querySelector("nav ul");
     setOpen(!open);
-
-    if (open) {
-      navMenu.classList.toggle("nav-open");
-    } else {
-      navMenu.classList.toggle("nav-close");
-    }
   };
-
-  useEffect(() => {
-    setOpen();
-  }, [open]);
 
   return (
     <nav>
@@ -26,24 +15,36 @@ const Navbar = () => {
         <h1>Kevin Medina</h1>
       </div>
 
-      <ul>
+      <ul className={open ? "nav-open" : ""}>
         <li>
-          <Link className="link" to="/">
+          <Link className="link" to="/" onClick={(open) => toggleMenu(open)}>
             Home
           </Link>
         </li>
         <li>
-          <Link className="link" to="/about">
+          <Link
+            className="link"
+            to="/about"
+            onClick={(open) => toggleMenu(open)}
+          >
             About
           </Link>
         </li>
         <li>
-          <Link className="link" to="/projects">
+          <Link
+            className="link"
+            to="/projects"
+            onClick={(open) => toggleMenu(open)}
+          >
             Projects
           </Link>
         </li>
         <li>
-          <Link className="link" to="/contact">
+          <Link
+            className="link"
+            to="/contact"
+            onClick={(open) => toggleMenu(open)}
+          >
             Contact
           </Link>
         </li>
